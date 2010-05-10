@@ -1,0 +1,28 @@
+= Heroku Manifest Generator
+
+Aids in generating a .gems manifest for your Heroku application. Currently
+only works on Rails applications.
+
+== Installation
+
+To install:
+
+    $ heroku plugins:install git://github.com/ddollar/heroku-manifest.git
+
+== Usage
+
+    $ heroku manifest:generate
+    webrat
+    gchartrb --version '>= 0.8' --source 'http://gemcutter.org'
+    tinder --version '>= 1.2.0'
+
+    $ heroku manifest:write
+    Gem manifest successfully written
+
+== License
+
+MIT
+
+== Copyright
+
+Copyright (c) 2010 David Dollar.
