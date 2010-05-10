@@ -9,7 +9,7 @@ class Heroku::Command::Manifest < Heroku::Command::Base
     load_environment
     manifest = generate_manifest
     File.open(".gems", "w") { |file| file.puts manifest }
-    display "Manifest written"
+    display "Gem manifest successfully written."
   end
 
 private ######################################################################
