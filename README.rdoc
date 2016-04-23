@@ -1,28 +1,5 @@
-= Heroku Manifest Generator
+# Deprecated
 
-Aids in generating a .gems manifest for your Heroku application. Currently
-only works on Rails applications.
+This project is deprecated and is no longer being maintained.
 
-== Installation
-
-To install:
-
-    $ heroku plugins:install git://github.com/ddollar/heroku-manifest.git
-
-== Usage
-
-    $ heroku manifest:generate
-    webrat
-    gchartrb --version '>= 0.8' --source 'http://gemcutter.org'
-    tinder --version '>= 1.2.0'
-
-    $ heroku manifest:write
-    Gem manifest successfully written
-
-== License
-
-MIT
-
-== Copyright
-
-Copyright (c) 2010 David Dollar.
+Please check out my current project [Convox](https://convox.com) for all of your deployment needs!
